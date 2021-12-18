@@ -1,0 +1,383 @@
+body {
+    color: white;
+    background-color: white;
+    font-size: x-large;
+   
+    
+}
+
+#main-body {
+    padding: 10% 10% 0 10%;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+
+#navbar {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    z-index: 2100;
+}
+
+.color {
+    color: #5506b2;
+}
+
+.instagram {
+    color: #d66f4e;
+}
+
+.mypic1 {
+    width: 100%;
+    height: 100%;
+}
+
+.hello {
+    position: relative;
+    z-index: 10;
+    display: block;
+    color: hsla(0, 0%, 100%, 0.801);
+    font-size: 1.5em;
+    font-weight: 700;
+   
+}
+
+
+.Name {
+    color: white;
+    font-size: 3em;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 0 5% 0 0;
+    font-weight: bold;
+}
+
+.fullstop {
+    color: #5506b2;
+}
+
+.Skillset {
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 1% 5% 0 0;
+}
+
+.about-me-passage {
+    padding-bottom: 10%;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    padding-top: 8%;
+}
+
+.and {
+    font-size: x-large;
+}
+
+.table {
+    margin: 2% 0;
+    padding: 7% 0;
+}
+
+.edu-link {
+    padding: 5% 0 0 0;
+}
+
+.link1 {
+    background-color: none;
+    color: black;
+    border-bottom: 2px solid black;
+    padding: 0 2% 2% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.hr1 {
+    border: dotted #4147a1 2px;
+    border-bottom: none;
+    width: 10%;
+    margin: 10% auto;
+}
+
+.fs-1 {
+    text-align: center;
+    margin: 5% auto 5%;
+}
+
+.education {
+    margin-top: 10%;
+}
+
+.fs-3 {
+    margin: auto;
+    padding: 2% 4%;
+}
+
+.bio {
+    color: white;
+    padding: 0 0 0 0;
+    margin: 0 0 10% 0;
+}
+
+.web-dev-pic {
+    width: 70%;
+}
+
+.btn {
+    font-size: x-large;
+    margin: 0 0 15% 0;
+   
+}
+#skils-button{
+    border-color: #5506b2;
+    background-color: #5506b2;
+    color: white;
+}
+.btn:hover {
+    color: white;
+}
+
+.container {
+    color: black;
+}
+
+.row {
+    padding: 0;
+}
+
+.color1 {
+    margin-bottom: 0;
+    display: inline-block;
+    font-weight: bold;
+    color: #5506b2;
+}
+
+.block {
+    position: block;
+    width: 60px;
+}
+
+.mysocials {
+    font-size: small;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50%;
+    margin-bottom: 0;
+    border-radius: 0.25 rem;
+    margin-top: 100%;
+    
+}
+
+.fa-github {
+    color: rgb(36, 28, 28);
+}
+
+.socials {
+    margin-bottom: 5%;
+    padding: 2%;
+}
+.black{
+    background-color: black;
+
+}
+.About {
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
+
+.aboutme1 {
+    padding: auto 5%;
+}
+
+#about-me {
+    margin-top: 0;
+}
+
+.aboutme2 {
+    padding: 2% 0 10% 0;
+}
+
+.about-me-div {
+    padding: 0;
+    width: 100%;
+    background-color: #f3f7fc;
+}
+
+.padding {
+    margin-bottom: 5%;
+}
+
+#Otherpages {
+    margin-right: 0;
+    background-color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.aboutpad{
+    margin-top: 5%;
+}
+
+.skills-image {
+    width: 50%;
+    margin: 0 auto 5% auto;
+}
+
+.skills {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: black;
+}
+
+.fs-4 {
+    font-weight: 3rem;
+    text-align: center;
+    margin: 20% auto 5% auto;
+}
+.middle{
+    text-align: center;
+}
+.center {
+    padding: 0 10% 5%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+footer {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.hidden {
+    font-size: x-large;
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.col-md-4 {
+    border: solid 0.1px rgb(75, 71, 71);
+}
+#contactme{
+    margin-top: 10%;
+
+}
+
+@media (max-width:768px) {
+    body {
+        text-align: center;
+    }
+    .socials {
+        text-align: left;
+        
+    }
+    .mysocials{
+        padding-top: -100px;
+        margin-top: -20px;
+    }
+    
+    .about-me-div {
+        text-align: center;
+        padding-left: 6%;
+    }
+  
+       
+        
+    .skills {
+        margin-left: 5%;
+    }
+    .adjust{
+        margin-top: 10%;
+    }
+    .table-responsive{
+       overflow: scroll;
+   }
+  #fo{
+      padding-top: 180%;
+  }
+}
+
+
+
+.home-testimonial {
+    background-color: #231834;
+    height: 380px
+}
+
+.home-testimonial-bottom {
+    background-color: #f8f8f8;
+  
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px;
+}
+
+.home-testimonial h3 {
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.home-testimonial h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.testimonial-inner {
+    position: relative;
+    top: -174px;
+}
+
+.testimonial-pos {
+    position: relative;
+    top: 24px;
+}
+
+.testimonial-inner .tour-desc {
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.color-grey-3 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2;
+}
+
+.testimonial-inner img.tm-people {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+
+.link-name {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2;
+}
+
+.link-position {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+button{
+    position: relative;
+   z-index: 2000;
+  }
+
+  .modal-body{
+      position: relative;
+      z-index: 3600;
+  }
