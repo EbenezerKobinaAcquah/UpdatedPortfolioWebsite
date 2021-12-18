@@ -381,3 +381,6 @@ button{
       position: relative;
       z-index: 3600;
   }
+  .modal-header{
+      margin-top: 10%;
+  }
