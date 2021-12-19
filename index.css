@@ -8,7 +8,7 @@ body {
 
 #main-body {
     padding: 10% 10% 0 10%;
-    margin: 0;
+    
 }
 
 .navbar-brand {
@@ -161,12 +161,11 @@ body {
 
 .mysocials {
     font-size: small;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 50%;
+   
+    
     margin-bottom: 0;
     border-radius: 0.25 rem;
-    margin-top: 100%;
+    margin-top: 5%;
     
 }
 
@@ -175,8 +174,8 @@ body {
 }
 
 .socials {
-    margin-bottom: 5%;
-    padding: 2%;
+    margin-bottom: 2%;
+ 
 }
 .black{
     background-color: black;
@@ -196,7 +195,14 @@ body {
 }
 
 .aboutme2 {
-    padding: 2% 0 10% 0;
+    padding: 2% 10% 10% 10%;
+}
+.icon-size{
+    font-size: small;
+}
+.white-color{
+    text-decoration: none;
+    color: white;
 }
 
 .about-me-div {
@@ -272,11 +278,15 @@ footer {
     }
     .socials {
         text-align: left;
-        
+        padding-bottom: 4%;
     }
     .mysocials{
-        padding-top: -100px;
-        margin-top: -20px;
+        
+        margin-top: 40%;
+    }
+    .Skillset{
+        padding-right: 10%;
+        padding-left: 10%;
     }
     
     .about-me-div {
@@ -384,3 +394,4 @@ button{
   .modal-header{
       margin-top: 10%;
   }
+ 
