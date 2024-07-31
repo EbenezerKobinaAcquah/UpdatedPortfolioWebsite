@@ -1,3 +1,6 @@
+
+import { Analytics } from "@vercel/analytics/react"
+
 function speak () {
     alert("Hello, my CV is not available online yet");
 }
