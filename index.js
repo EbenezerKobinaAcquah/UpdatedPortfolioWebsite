@@ -1,6 +1,10 @@
 
-import { Analytics } from "@vercel/analytics/react"
+import react from "react";
+import { Analytics } from "@vercel/analytics/react";
 
+
+
+ReactDOM.render(<Analytics />, document.getElementById("root"));
 function speak () {
     alert("Hello, my CV is not available online yet");
 }
@@ -17,3 +21,5 @@ $(".skills .btn").click(function(){
     })
 });
     
+
+
