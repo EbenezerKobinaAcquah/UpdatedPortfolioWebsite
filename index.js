@@ -1,9 +1,3 @@
-
-
-
-
-
-ReactDOM.render(<Analytics />, document.getElementById("root"));
 function speak () {
     alert("Hello, my CV is not available online yet");
 }
@@ -20,5 +14,3 @@ $(".skills .btn").click(function(){
     })
 });
     
-
-
